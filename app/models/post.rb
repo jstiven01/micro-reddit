@@ -3,7 +3,8 @@
 class Post < ApplicationRecord
   # Associations
   belongs_to :user
-  # validations
+  has_many :comments
+  # Validations
   validates :title, presence: true
   validates :body, presence: true
 end

@@ -1,24 +1,36 @@
-# README
+# # Project: Micro-Reddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is about building the data structures necessary to support link submissions and commenting. [here](https://www.theodinproject.com/courses/ruby-on-rails/lessons/building-with-active-record-ruby-on-rails#project-2-micro-reddit)
 
-Things you may want to cover:
 
-* Ruby version
+## Built With:
+ruby 2.6.3, rails 5.2.3
 
-* System dependencies
+## Author
+Johan Tinjaca https://github.com/jstiven01
 
-* Configuration
+## Getting started
 
-* Database creation
+To get started with the app, clone the repo and then install the needed gems:
 
-* Database initialization
+```
+$ bundle install --without production
+```
 
-* How to run the test suite
+Next, migrate the database:
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ rails db:migrate
+```
 
-* Deployment instructions
+Finally, run the test suite to verify that everything is working correctly:
 
-* ...
+```
+$ rails test
+```
+
+If the test suite passes, you'll be ready to run the app in a local server:
+
+```
+$ rails server
+```
