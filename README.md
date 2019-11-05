@@ -1,4 +1,4 @@
-# # Project: Micro-Reddit
+# Project: Micro-Reddit
 
 This project is about building the data structures necessary to support link submissions and commenting. [here](https://www.theodinproject.com/courses/ruby-on-rails/lessons/building-with-active-record-ruby-on-rails#project-2-micro-reddit)
 
